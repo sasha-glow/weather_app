@@ -1,0 +1,170 @@
+@import "./reset.css";
+@import "./vars.css";
+*{
+  box-sizing: border-box;
+}
+
+.page {
+  font-family: "Copperplate", sans-serif;
+  margin: auto;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #076585 0%, #fff 100%);
+}
+
+.header__title {
+  margin: 0;
+  width: auto;
+  padding-top: 15px;
+  
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #384b57;
+}
+
+.header__form {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: baseline;
+  
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 455%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #76779d;
+}
+
+.header__input {
+  margin-right: 20px;
+  border-radius: 20px;
+  border: none;
+  width: 290px;
+  height: 40px;
+  
+  text-align: center;
+  background: #d9d9d9;
+}
+
+.header__button {
+  border-radius: 20px;
+  border: none;
+  width: 140px;
+  height: 40px;
+  background: rgba(60, 154, 186, 0.53);
+  
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  color: #5c5d7c;
+  
+  cursor: pointer;
+  transition: background-color 0.2s ease-in;
+}
+
+.header__button:hover {
+  background: rgba(60, 154, 186, 0.31);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  
+  width: 400px;
+  height: 260px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  
+  font-family: "Content", sans-serif;
+  box-shadow: 0 0 30px 0 #5092a9;
+  background: #cadee5;
+}
+
+.card__city-name {
+  margin-top: 15px;
+  margin-bottom: 0;
+  padding-left: 15px;
+  
+  
+  font-weight: 400;
+  font-size: 36px;
+  text-align: left;
+  color: #384b57;
+}
+
+.card__city-name span {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2px 3px;
+  
+  font-size: 14px;
+  font-weight: bold;
+  color: #384b57;
+  vertical-align: text-top;
+}
+
+.card__weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__temp {
+  margin-left: 10px;
+  
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 29%;
+  text-align: center;
+  color: #384b57;
+}
+
+.card__img {
+  width: 35%;
+  margin-right: 30px;
+}
+
+.card__description {
+  padding-left: 15px;
+  
+  font-weight: 400;
+  font-size: 36px;
+  text-align: left;
+  color: #384b57;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(45deg, #fff 0%, #076585 100%);
+}
+
+.footer__copy {
+  display: inline-block;
+  margin: auto;
+  font-size: 16px;
+  color: #384b57;
+}
+
+
+
+
+
+
+
+

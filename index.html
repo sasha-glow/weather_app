@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>VanillaJS Weather App</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body class="page">
+
+  <header class="header bordered">
+    <h1 class="header__title bordered">VanillaJS Weather App</h1>
+    <form class="header__form bordered">
+      <label>
+        <input class="header__input bordered" type="text" placeholder="Enter city name">
+      </label>
+      <button class="header__button bordered">Get weather</button>
+    </form>
+  </header>
+
+  <div class="card bordered">
+    <h2 class="card__city-name bordered">London <span>GB</span></h2>
+    <div class="card__weather bordered">
+      <div class="card__temp bordered">11℃</div>
+      <img class="card__img bordered" src="images/weather_icons/cloudy.svg" alt="Cloudy">
+    </div>
+    <div class="card__description bordered">Cloudy</div>
+  </div>
+
+  <footer class="footer bordered">
+    <h2 class="footer__copy">
+      &copy; Made by Sasha_glow
+    </h2>
+  </footer>
+
+
+<script src="./javascript/main.js"></script>
+</body>
+</html>
